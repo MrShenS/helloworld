@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HelloWorld_1_Java" />
+        <module name="ShiroLearn" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="HelloWorld" target="1.8" />
       <module name="HelloWorld_1_Java" target="1.8" />
+      <module name="ShiroLearn" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld_1_Java/HelloWorld_1_Java.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld_1_Java/HelloWorld_1_Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloWorld/ShiroLearn/ShiroLearn.iml" filepath="$PROJECT_DIR$/HelloWorld/ShiroLearn/ShiroLearn.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/helloworld.iml" filepath="$PROJECT_DIR$/.idea/helloworld.iml" />
     </modules>
   </component>

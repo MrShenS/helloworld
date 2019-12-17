@@ -2,14 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56558ab4-cc26-4ad7-9a77-af07cbfe4241" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld/HelloWorld_1_Java/HelloWorld_1_Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld/HelloWorld_1_Java/HelloWorld_1_Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld/HelloWorld_1_Java/target/classes/META-INF/HelloWorld_1_Java.kotlin_module" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HelloWorld/ShiroLearn/ShiroLearn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HelloWorld/ShiroLearn/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HelloWorld/ShiroLearn/src/main/java/com/zhenshen/First/SimpleTest/FirstShiro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HelloWorld/ShiroLearn/src/main/java/com/zhenshen/First/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HelloWorld/ShiroLearn/src/main/java/com/zhenshen/First/service/FirstShiroTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HelloWorld/ShiroLearn/src/main/java/com/zhenshen/First/service/ShiroService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HelloWorld/ShiroLearn/src/main/resources/shiro.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HelloWorld/ShiroLearn/target/classes/com/zhenshen/SimpleTest/FirstShiro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HelloWorld/ShiroLearn/target/classes/com/zhenshen/bean/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HelloWorld/ShiroLearn/target/classes/com/zhenshen/service/FirstShiroTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HelloWorld/ShiroLearn/target/classes/com/zhenshen/service/ShiroService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HelloWorld/ShiroLearn/target/classes/shiro.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,24 +55,65 @@
         <option name="userSettingsFile" value="D:\APP\Maven\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1UYxjljNsmO9dvDkWMTGAqBBq6b" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Git\MrshenS\helloworld\HelloWorld\ShiroLearn\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FirstShiroTest">
+    <configuration name="FirstShiro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhenshen.SimpleTest.FirstShiro" />
+      <module name="ShiroLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhenshen.SimpleTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstShiroTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhenshen.service.FirstShiroTest" />
+      <module name="ShiroLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhenshen.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Property" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ThinkInJava.IsObject_2._exercise1.Property" />
       <module name="HelloWorld_1_Java" />
@@ -54,6 +129,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstShiroTest" />
+        <item itemvalue="Application.FirstShiro" />
         <item itemvalue="Application.Property" />
       </list>
     </recent_temporary>
@@ -84,57 +161,103 @@
       <workItem from="1575786951525" duration="7000" />
       <workItem from="1576466224303" duration="1271000" />
       <workItem from="1576542888584" duration="37000" />
-      <workItem from="1576566479584" duration="321000" />
+      <workItem from="1576566479584" duration="3808000" />
+      <workItem from="1576571326439" duration="7735000" />
     </task>
+    <task id="LOCAL-00001" summary="测试使用IDea提交Git代码">
+      <created>1576566857687</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576566857687</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="测试使用IDea提交Git代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试使用IDea提交Git代码" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="301" y="147" key="#Custom_Plugin_Repositories" timestamp="1576571208448">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="301" y="147" key="#Custom_Plugin_Repositories/0.0.1536.824@0.0.1536.824" timestamp="1576571208448" />
+    <state x="361" y="16" key="#HTTP_Proxy" timestamp="1576571196048">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="16" key="#HTTP_Proxy/0.0.1536.824@0.0.1536.824" timestamp="1576571196048" />
+    <state x="511" y="220" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576570567206">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="511" y="220" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1576570567206" />
+    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1576570726679">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1576570726679" />
+    <state x="362" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1576585932597">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="362" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1576585932597" />
+    <state x="313" y="9" key="CommitChangelistDialog2" timestamp="1576566854984">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="313" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576566854984" />
     <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1575547525708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1575547525708" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1575548765423">
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom" timestamp="1576585500374">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575548765423" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1575548765423">
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576585500374" />
+    <state width="1493" height="251" key="GridCell.Tab.0.center" timestamp="1576585500374">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575548765423" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1575548765423">
+    <state width="1493" height="251" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576585500374" />
+    <state width="1493" height="251" key="GridCell.Tab.0.left" timestamp="1576585500374">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575548765423" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1575548765423">
+    <state width="1493" height="251" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576585500374" />
+    <state width="1493" height="251" key="GridCell.Tab.0.right" timestamp="1576585500374">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575548765423" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1575548765424">
+    <state width="1493" height="251" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576585500374" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1576578358051">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575548765424" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1575548765424">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576578358051" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1576578358051">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1575548765424" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1575548765424">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1576578358051" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1576578358051">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1575548765424" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1575548765424">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1576578358051" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1576578358051">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1575548765424" />
-    <state x="272" y="0" key="SettingsEditor" timestamp="1576566799710">
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1576578358051" />
+    <state x="272" y="0" key="SettingsEditor" timestamp="1576571445774">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576566799710" />
-    <state x="461" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1576542888619">
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576571445774" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1576566865182">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1576542888619" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1576566865182" />
+    <state x="461" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1576571337753">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1576571337753" />
+    <state x="178" y="28" key="new project wizard" timestamp="1576569274776">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="28" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1576569274776" />
   </component>
 </project>

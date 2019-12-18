@@ -80,7 +80,6 @@ public class ShiroTest {
         System.out.println("================================用户角色验证============================================");
         for (User user:users){
             if (login(user)){
-                System.out.println(user.getName()+"角色如下");
                 for (String role: roles) {
                     if(hasRole(user,role)){
                         System.out.println(user.getName()+"具有"+role+"角色");
@@ -95,7 +94,9 @@ public class ShiroTest {
             if(login(user)){
                 System.out.println("用户"+user.getName()+"具有权限如下");
                 for (String permit: permits) {
-                    System.out.println("用户"+user.getName()+"具有"+permit+"权限");
+                    if(isPermitted(user,permit)){
+                        System.out.println("用户"+user.getName()+"具有"+permit+"权限");
+                    }
                 }
             }
         }

@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56558ab4-cc26-4ad7-9a77-af07cbfe4241" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/ShiroLearn/src/main/java/com/zhenshen/Second/SimpleTest/ShiroTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/ShiroLearn/src/main/java/com/zhenshen/Second/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/ShiroLearn/src/main/java/com/zhenshen/Second/dao/DatabaseRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/ShiroLearn/src/main/java/com/zhenshen/Second/dao/ShiroDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/ShiroLearn/src/main/resources/DbShiro.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld/ShiroLearn/ShiroLearn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld/ShiroLearn/ShiroLearn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld/ShiroLearn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld/ShiroLearn/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld/ShiroLearn/target/classes/com/zhenshen/SimpleTest/FirstShiro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld/ShiroLearn/target/classes/com/zhenshen/bean/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld/ShiroLearn/target/classes/com/zhenshen/service/FirstShiroTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld/ShiroLearn/target/classes/com/zhenshen/service/ShiroService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld/ShiroLearn/src/main/java/com/zhenshen/Second/SimpleTest/ShiroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld/ShiroLearn/src/main/java/com/zhenshen/Second/SimpleTest/ShiroTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld/ShiroLearn/src/main/java/com/zhenshen/Second/dao/DatabaseRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld/ShiroLearn/src/main/java/com/zhenshen/Second/dao/DatabaseRealm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,6 +171,7 @@
       <workItem from="1576633879926" duration="8197000" />
       <workItem from="1576647742201" duration="929000" />
       <workItem from="1576650738680" duration="697000" />
+      <workItem from="1576662306405" duration="1420000" />
     </task>
     <task id="LOCAL-00001" summary="测试使用IDea提交Git代码">
       <created>1576566857687</created>
@@ -197,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576586087035</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="提交Shiro第二阶段 提交基于数据库做用户验证">
+      <created>1576662389151</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576662389151</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +204,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="测试使用IDea提交Git代码" />
     <MESSAGE value="提交Shiro第一阶段 学习 基于配置文件验证用户权限和角色" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交Shiro第一阶段 学习 基于配置文件验证用户权限和角色" />
+    <MESSAGE value="提交Shiro第二阶段 提交基于数据库做用户验证" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交Shiro第二阶段 提交基于数据库做用户验证" />
   </component>
   <component name="WindowStateProjectService">
     <state x="301" y="147" key="#Custom_Plugin_Repositories" timestamp="1576571208448">
@@ -234,30 +232,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="362" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1576585932597" />
-    <state x="313" y="9" key="CommitChangelistDialog2" timestamp="1576586086307">
+    <state x="313" y="9" key="CommitChangelistDialog2" timestamp="1576662388064">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="313" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576586086307" />
+    <state x="313" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576662388064" />
     <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1575547525708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1575547525708" />
-    <state width="1493" height="251" key="GridCell.Tab.0.bottom" timestamp="1576654405778">
+    <state width="1493" height="57" key="GridCell.Tab.0.bottom" timestamp="1576664307810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576654405778" />
-    <state width="1493" height="251" key="GridCell.Tab.0.center" timestamp="1576654405778">
+    <state width="1493" height="57" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576664307810" />
+    <state width="1493" height="57" key="GridCell.Tab.0.center" timestamp="1576664307810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576654405778" />
-    <state width="1493" height="251" key="GridCell.Tab.0.left" timestamp="1576654405778">
+    <state width="1493" height="57" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576664307810" />
+    <state width="1493" height="57" key="GridCell.Tab.0.left" timestamp="1576664307810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576654405778" />
-    <state width="1493" height="251" key="GridCell.Tab.0.right" timestamp="1576654405778">
+    <state width="1493" height="57" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576664307810" />
+    <state width="1493" height="57" key="GridCell.Tab.0.right" timestamp="1576664307810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576654405778" />
+    <state width="1493" height="57" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576664307810" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1576648672160">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -278,10 +276,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="272" y="0" width="1214" height="710" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576632148497" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1576586097095">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1576662398033">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1576586097095" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1576662398033" />
     <state x="461" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1576627424834">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

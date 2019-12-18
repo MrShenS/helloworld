@@ -1,4 +1,4 @@
-package com.zhenshen.First.bean;
+package com.zhenshen.ByconfigurationFile.bean;
 
 public class User {
     private String name;

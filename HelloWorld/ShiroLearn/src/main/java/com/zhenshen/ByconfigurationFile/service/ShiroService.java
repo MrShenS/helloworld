@@ -1,6 +1,6 @@
-package com.zhenshen.First.service;
+package com.zhenshen.ByconfigurationFile.service;
 
-import com.zhenshen.First.bean.User;
+import com.zhenshen.ByconfigurationFile.bean.User;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.config.IniSecurityManagerFactory;

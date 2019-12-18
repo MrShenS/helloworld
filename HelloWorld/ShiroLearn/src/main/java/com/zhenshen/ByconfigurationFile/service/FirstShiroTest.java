@@ -1,6 +1,6 @@
-package com.zhenshen.First.service;
+package com.zhenshen.ByconfigurationFile.service;
 
-import com.zhenshen.First.bean.User;
+import com.zhenshen.ByconfigurationFile.bean.User;
 
 import java.util.LinkedList;
 

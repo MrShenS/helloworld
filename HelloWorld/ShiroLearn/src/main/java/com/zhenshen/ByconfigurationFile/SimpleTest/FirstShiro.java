@@ -1,4 +1,4 @@
-package com.zhenshen.First.SimpleTest;
+package com.zhenshen.ByconfigurationFile.SimpleTest;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,7 +1,7 @@
-package com.zhenshen.Second.SimpleTest;
+package com.zhenshen.ByDatebase.SimpleTest;
 
-import com.zhenshen.Second.bean.User;
-import com.zhenshen.Second.dao.ShiroDao;
+import com.zhenshen.ByDatebase.bean.User;
+import com.zhenshen.ByDatebase.dao.ShiroDao;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.config.IniSecurityManagerFactory;

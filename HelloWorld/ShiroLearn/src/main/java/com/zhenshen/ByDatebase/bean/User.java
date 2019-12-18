@@ -1,4 +1,4 @@
-package com.zhenshen.Second.bean;
+package com.zhenshen.ByDatebase.bean;
 
 public class User {
     private int  Id;

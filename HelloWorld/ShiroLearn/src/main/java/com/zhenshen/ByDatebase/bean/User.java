@@ -4,7 +4,15 @@ public class User {
     private int  Id;
     private String name;
     private String password;
+    private String salt;
 
+    public String getSalt() {
+        return salt;
+    }
+
+    public void setSalt(String salt) {
+        this.salt = salt;
+    }
 
     public String getName() {
         return name;
@@ -28,5 +36,15 @@ public class User {
 
     public void setId(int id) {
         Id = id;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "Id=" + Id +
+                ", name='" + name + '\'' +
+                ", password='" + password + '\'' +
+                ", salt='" + salt + '\'' +
+                '}';
     }
 }

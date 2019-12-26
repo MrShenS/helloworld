@@ -1,5 +1,9 @@
 package com.zhenshen.ByDatebase.dao;
 
+import com.zhenshen.ByDatebase.bean.User;
+import org.apache.shiro.crypto.SecureRandomNumberGenerator;
+import org.apache.shiro.crypto.hash.SimpleHash;
+
 import java.sql.*;
 import java.util.HashSet;
 import java.util.Set;
@@ -91,13 +95,64 @@ public class ShiroDao {
         }
         return set;
     }
+/**
+ * @Author zhen.shen
+ * @Description //TODO 注册用户
+ * @Date 20:53 2019/12/18
+ * @Param
+ * @return
+ **/
+    public static boolean registerUser(String username,String passward){
+        //获取盐值
+        String salt = new SecureRandomNumberGenerator().nextBytes().toString();
+        //加密次数
+        int times=3;
+        //加墨方式
+        String type ="md5";
+        //加密后的密码
+        String lastPassword = new SimpleHash(type, passward, salt, times).toString();
+        /*******************加密结束****************/
+        String sql="insert into user(name,password,salt)VALUES(?,?,?)";
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setString(1,username);
+            preparedStatement.setString(2,lastPassword);
+            preparedStatement.setString(3,salt);
+            if(preparedStatement.execute()){
+                return true;
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        }
+        return false;
+    }
 
+    public static User getUser(String username){
+        String sql="select * from user where name = ?";
+        User user = new User();
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setString(1,username);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            while(resultSet.next()){
+                user.setName(resultSet.getString("name"));
+                user.setPassword(resultSet.getString("password"));
+                user.setSalt(resultSet.getString("salt"));
+            }
+            System.out.println(user);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return user;
+    }
     public static void main(String[] args) {
         System.out.println("Object的角色：" + new ShiroDao().getRoles("Object"));
         System.out.println("Reader的角色：" + new ShiroDao().getRoles("Reader"));
         System.out.println("Object的权限："+new ShiroDao().getPermits("Object"));
         System.out.println("Reader的权限："+new ShiroDao().getPermits("Reader"));
         System.out.println(getPassword("Reader"));
+        registerUser("shenzhen","shenzhen");
 
     }
 }
